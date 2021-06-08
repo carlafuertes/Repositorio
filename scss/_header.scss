@@ -1,0 +1,32 @@
+header{
+    background: #117780b4;
+    border: #13717969 2px solid;
+    border-radius: 0 0 6px 6px;
+    width: 100%;
+    display: inline-table;
+    height: 11vh;
+}
+.header-gardient{
+    background-image: linear-gradient(to bottom, rgb(10, 118, 133), rgb(23, 80, 112));
+}
+.article-scale :hover{
+    transform: translate(10px, 20px);
+    cursor: default;
+}
+
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-header__logo {
+    border-radius: 50px;
+    margin: 1px;
+}
+header ul li{
+    display: inline-block;
+    width: 16%;
+    position:relative;
+    font-size: 14px
+}

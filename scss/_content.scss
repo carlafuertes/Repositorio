@@ -1,0 +1,38 @@
+main h3{
+    color: #0a6894;
+}
+main h4{
+    color: darkslategrey;
+}
+
+main {
+    margin: 20px 50px;
+}
+.format-contact__space{
+    margin-bottom: 7px;
+}
+
+.carousel-indicators{
+    position: relative;
+    width: 100%;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    margin: 0;
+}
+
+$colors: (uno:#f59999ee, dos:#f58787ee, tres:#e47272ee);
+@each $name-color, $bg-color in $colors {
+    .fondo-#{$name-color}{
+        background-color: $bg-color;
+        width: 299px;
+        height: 391px;
+        border-radius: 17%;
+    }
+    
+}
+.font-service{
+    text-align: center;
+    font-size: 28px;
+}
+

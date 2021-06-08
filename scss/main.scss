@@ -1,0 +1,131 @@
+$teal:#008080;
+$value0:0px;
+@import "_header";
+@import "_content";
+@import "_footer";
+@import "_servicios";
+
+*{
+    font-family: 'Dosis', sans-serif;
+    color: black;
+}
+
+body {
+    margin: $value0/2;
+    background-color:#fae5dd;
+}
+h1{
+    color:$teal;
+}
+h2{
+    color: $teal;
+}
+body nav a{
+    color: $teal;
+    font-weight: 600;
+}
+
+article{
+    color: rgb(43, 33, 194);
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Noto Sans KR', sans-serif;
+} 
+
+element.style {
+    list-style: circle outside;
+}
+ol li {
+    list-style: circle outside;
+    color: darkslategray;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 500;
+}
+.text-decoration__title{
+    text-decoration: underline;
+    color: rgb(241, 61, 30);
+}
+article{
+    font-size: larger;
+    font-weight: 500;
+    padding: 20px;
+}
+.style-border__contact{
+    border: solid teal 2px;
+}
+ul{
+    list-style: none;
+    font-size: ($value0+1)-1;
+    display: inline-block;
+    width: 46%;
+}
+
+ul ul{
+    position: absolute;
+    display: none;
+    background-color: #ffffffd9;
+    color: black;
+    margin: 7px;
+    padding: 45px 2px;
+    border: 2px solid #56979b;
+    height: ($value0*1)+0;
+    float: initial;
+    width: 276px;
+}
+.navBar-item {
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.service-menu__display{
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    justify-content: space-around;
+}
+
+/* grid-transition-keyframe */
+
+
+.animation__animation__aparecer{
+    animation-duration:4s;
+    animation-name: animation__aparecer;
+ }
+ 
+ 
+@keyframes animation__aparecer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+ }
+  
+ .carousel-indicators {
+    bottom: 124px;
+ }
+ .topnav {
+    overflow: hidden;
+    background-color: rgb(30, 140, 173);}
+  
+  /* Topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #014f64;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; }
+  
+  @media screen and (max-width: 600px) {
+  .topnav a {
+      float: none;
+      width: 100%;
+    }
+  
+}
+.text-align{
+    text-align: center;
+}

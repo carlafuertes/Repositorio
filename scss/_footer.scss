@@ -1,0 +1,39 @@
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background: #00000036;
+    color: black;
+    font-style: normal;
+    height: 27vh;
+    width: 100%;
+    list-style: none;
+}
+.footer-deco{
+    text-align: center;
+    text-transform: capitalize;
+    color: black;
+}
+@each $icono in pin, email, whatsapp, facebook, instagram{
+    .#{$icono}-icon{
+        background-image: url(../fotos/#{$icono}.svg);
+        width: 27px;
+        height: 24px;
+        background-size: 100%;
+        list-style: none;
+        background-size: auto;
+        background-repeat: no-repeat;
+       
+
+    }
+}
+.icon-align{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+$colors:(uno:red, dos: black, tres: green, cuatro: blue);
+@each $name-color, $bg-color in $colors{
+
+}

@@ -1,0 +1,174 @@
+*{
+    font-family: 'Dosis', sans-serif;
+    color: black;
+}
+
+body {
+    margin: 0;
+    background-color:#fae5dd;
+}
+h1{
+    color: teal;
+}
+h2{
+    color: teal;
+}
+body nav a{
+    color: rgb(10, 99, 126);
+    font-weight: 600;
+}
+section article{
+    color: tomato; 
+}
+main h3{
+    color: #0a6894;
+}
+main h4{
+    color: darkslategrey;
+}
+
+main {
+    margin: 20px 50px;
+}
+header{
+    background: #117780b4;
+    border: #13717969 2px solid;
+    border-radius: 0 0 6px 6px;
+    padding: 2%;
+    
+    width: 100%;
+    display: inline-table;
+    height: 11vh;
+}
+.header-gardient{
+    background-image: linear-gradient(to bottom, rgb(10, 118, 133), rgb(23, 80, 112));
+}
+.article-scale :hover{
+    transform: translate(10px, 20px);
+    cursor: default;
+}
+
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-header__logo {
+    border-radius: 50px;
+    margin: 1px;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    background: #00000036;
+    color: black;
+    font-style: normal;
+    height: 25vh;
+    width: 100%;
+}
+.footer-deco{
+    text-align: center;
+    text-transform: capitalize;
+    color: black;
+}
+element.style {
+    list-style: circle outside;
+}
+ol li {
+    list-style: circle outside;
+    color: darkslategray;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 500;
+}
+.h-decoration{
+    text-decoration: underline;
+    color: rgb(241, 61, 30);
+}
+article{
+    font-size: larger;
+    font-weight: 500;
+    padding: 20px;
+}
+.style-border__contact{
+    border: solid teal 2px;
+}
+ul{
+    list-style: none;
+    font-size: 0px;
+    display: inline-block;
+    width: 46%;
+}
+header ul li{
+   display: inline-block;
+   width: 16%;
+   position:relative;
+   font-size: 14px
+}
+ul ul{
+    position: absolute;
+    display: none;
+    background-color: #ffffffd9;
+    color: black;
+    margin: 7px;
+    padding: 45px 2px;
+    border: 2px solid #56979b;
+    height: 0px;
+    float: initial;
+    width: 276px;
+}
+.navBar-item {
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.service-menu__display{
+    display: flex;
+}
+
+/* grid-transition-keyframe */
+
+
+.animation__aparecer{
+    animation-duration:4s;
+    animation-name: animation__aparecer;
+ }
+ 
+ 
+@keyframes animation__aparecer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+ }
+  
+ .carousel-indicators {
+    bottom: 124px;
+ }
+ .topnav {
+    overflow: hidden;
+    background-color: rgb(30, 140, 173);}
+  
+  /* Topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #014f64;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; }
+  
+  @media screen and (max-width: 600px) {
+  .topnav a {
+      float: none;
+      width: 100%;
+    }
+  
+}
+.text-align{
+    text-align: center;
+}
